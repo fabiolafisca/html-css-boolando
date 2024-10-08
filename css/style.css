@@ -1,0 +1,102 @@
+/* generals */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+
+header{
+    
+    background-color: white
+    color: white
+    padding: 20px 20px;
+    width: 50%;
+    z-index: 150;
+    
+}
+
+
+/* Flex utiliy */
+.row{
+    display:flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: calc((100% - 10px) / 3);
+
+}
+
+.col img{
+    width: 100%;
+    display: center;
+}
+
+
+
+/* Position utility */
+.p-fixed{
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.p-absolute{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+}
+
+
+/* corpo della pagina */
+
+main{ 
+    margin: 100px 100px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.hearth{
+    text-align: center;
+    color: red;
+    font-size: 2em;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+
+/* Flex utilty */
+.d-flex {
+    display: flex;
+}
+
+
+
+
+
+
