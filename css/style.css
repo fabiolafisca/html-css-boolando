@@ -5,28 +5,34 @@
     box-sizing: border-box;
 }
 
+.center{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header*/
+header {
+    background-color: white
+    color: white
+    width: 100%;
+    z-index: 150;
+    <p>style="font-size: 24px;"
+}
+
+.logo img{
+    width: 150px;
+}
+   
+h2 {
+    font-size: small;
+}
+
+/* Flex utiliy */
+
 .d-flex {
     display: flex;
 }
 
-.center{
-    justify-content: center;
-    align-items: center;
-}
-
-
-header{
-    
-    background-color: white
-    color: white
-    padding: 20px 20px;
-    width: 50%;
-    z-index: 150;
-    
-}
-
-
-/* Flex utiliy */
 .row{
     display:flex;
     gap: 5px;
@@ -35,15 +41,12 @@ header{
 
 .col{
     width: calc((100% - 10px) / 3);
-
 }
 
 .col img{
     width: 100%;
     display: center;
 }
-
-
 
 /* Position utility */
 .p-fixed{
@@ -89,13 +92,6 @@ main{
     bottom: 10px;
     left: 50%;
 }
-
-/* Flex utilty */
-.d-flex {
-    display: flex;
-}
-
-
 
 
 
